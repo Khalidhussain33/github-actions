@@ -1,0 +1,13 @@
+git init 
+rm -rf .git
+git add remote 
+
+git remote add  origin git@github.com:Khalidhussain33/github-actions.git
+
+git branch -m main
+
+git commit -m "gitops"
+
+git push --set-upstream origin main 
+
+git push --set-upstream origin master
