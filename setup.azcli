@@ -6,7 +6,11 @@ git remote add  origin git@github.com:Khalidhussain33/github-actions.git
 
 git branch -m main
 
+git add . 
+
 git commit -m "gitops"
+
+git push 
 
 git push --set-upstream origin main 
 
