@@ -1,0 +1,18 @@
+name: ContainerX
+
+on: [push]
+
+jobs: 
+
+  node-docker:
+    runs-on: ubuntu-latest
+    container: 
+      image: node:15.0.1-alpine3.10
+    steps:
+        - name: Log Node Version
+          run: | 
+            
+            node -v 
+            cat /etc/os-release 
+            
+          
