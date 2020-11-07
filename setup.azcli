@@ -21,3 +21,19 @@ chmod +x hello_world
 ./git.sh
 
 # https://docs.github.com/en/free-pro-team@latest/actions/reference/context-and-expression-syntax-for-github-actions
+
+# https://joshtronic.com/2018/05/08/how-to-install-nodejs-10-on-ubuntu-1804-lts/
+
+incompetent-coal.surge.sh
+
+
+sudo apt install nodejs
+sudo apt install npm
+
+sudo apt-get update && sudo apt-get install yarn
+
+sudo npm i -g npx
+
+npx create-react-app react-app --use-npm
+cd my-app
+npm start
